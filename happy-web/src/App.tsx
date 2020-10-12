@@ -1,11 +1,13 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
-  );
-}
+import { FiArrowRight } from 'react-icons/fi';
+
+import './styles/global.css';
+
+import Routes from './routes';
+
+const App: React.FC = () => {
+  return <Routes />;
+};
 
 export default App;
